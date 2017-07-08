@@ -35,7 +35,15 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Auto Layout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJL-eO-DJN">
                                 <rect key="frame" x="152" y="626" width="187" height="21"/>
+                                <color key="backgroundColor" red="0.14606037077839007" green="1" blue="0.68104296694880562" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTT-mq-p4h">
+                                <rect key="frame" x="111.5" y="60" width="153.5" height="36"/>
+                                <color key="backgroundColor" red="0.21909616352252878" green="0.76845571147518665" blue="0.90960985422134399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -43,6 +51,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AJL-eO-DJN" secondAttribute="bottom" constant="20" id="DZM-N0-esK"/>
+                            <constraint firstItem="yTT-mq-p4h" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="IaE-D3-8e8"/>
+                            <constraint firstItem="yTT-mq-p4h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uu4-Qf-K4q"/>
                             <constraint firstItem="UD3-S7-s6X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mzm-t5-d4P"/>
                             <constraint firstItem="UD3-S7-s6X" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rpA-qF-3tE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AJL-eO-DJN" secondAttribute="trailing" constant="20" id="sRd-hI-psz"/>
